@@ -43,12 +43,12 @@ public class Waits
 				/**
 				 * use with java 6
 				 */
-				return (Boolean) ((JavascriptExecutor)driver).executeScript("return jQuery.active == 0");	
+				//return (Boolean) ((JavascriptExecutor)driver).executeScript("return jQuery.active == 0");	
 				/**
 				 * use with java 7
 				 */
-				//long numberOfAjaxConnections = (long) ((JavascriptExecutor) wd).executeScript("return jQuery.active");
-				//		 return numberOfAjaxConnections < 1;
+				long numberOfAjaxConnections = (long) ((JavascriptExecutor) wd).executeScript("return jQuery.active");
+						 return numberOfAjaxConnections < 1;
 			}
 		};
 		return expectation;
