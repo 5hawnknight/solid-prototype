@@ -2,11 +2,8 @@ package com.knight.solid.assertions;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-
 import com.knight.solid.interfaces.DashboardAssertions;
 import com.knight.solid.interfaces.DashboardPO;
-import com.knight.solid.interfaces.LoginPO;
 import com.knight.solid.library.Waits;
 
 public class DashboardAssertionsImpl implements DashboardAssertions 

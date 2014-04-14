@@ -2,9 +2,7 @@ package com.knight.solid.assertions;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
-
 import com.knight.solid.interfaces.LoginAssertion;
 import com.knight.solid.interfaces.LoginPO;
 import com.knight.solid.library.Waits;

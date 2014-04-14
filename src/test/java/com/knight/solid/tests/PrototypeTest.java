@@ -1,10 +1,10 @@
 package com.knight.solid.tests;
 
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 import com.knight.solid.builder.UserBuilderImpl;
 
 public class PrototypeTest extends Tests
